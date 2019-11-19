@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(90deg, #48c6ef 0%, #6f86d6 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    height: 400px;
+    width: 330px;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+#iconos {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.icon {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    margin: 0 7px 0 0;
+    border-radius: 50%;
+}
+
+.crojo {
+    background-color: #ee634c;
+
+}
+
+.camarillo {
+    background-color: #fabd5d;
+}
+
+.cverde {
+    background-color: #47ca6e;
+}
+
+.archivo {
+    background-color: #eef0f6;
+    height: 210px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tipos {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.flecha {
+    display: grid;
+    align-items: center
+}
+
+.arreglo {
+    height: 40px;
+    width: 135px;
+    padding-left: 6px;
+    background: #e3e8ed;
+    border: none;
+    font-weight: bold;
+    font-size: 16px
+}
+
+.btn {
+    background-color: #2ec98e;
+    border: none;
+    color: #fff;
+    width: 100%;
+    padding: 16px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #47ca6e;;
+}

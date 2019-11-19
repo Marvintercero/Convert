@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>mi primer conversor</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>Convert Marvin</h1>
+    <div class="contenedor">
+        <!-- iconos-->
+        <div id="iconos">
+            <div class="icon crojo"></div>
+            <div class="icon camarillo"></div>
+            <div class="icon cverde"></div>
+        </div>
+        <!-- Contenedor cargar archivo..-->
+        <div class="archivo">
+            <img src="img/file.png" alt="archivo">
+        </div>
+        <!-- tipos de archivos-->
+        <form class="tipos">
+            <select class="arreglo">
+                <option>m4a</option>
+                <option>mp3</option>
+                <option>mp4</option>
+            </select>
+
+            <div class="flecha"><img src="img/flecha.png" alt="vinbo"></div>
+
+            <select class="arreglo">
+                <option>m4a</option>
+                <option>mp3</option>
+                <option>mp4</option>
+            </select>
+        </form>
+
+        <button class="btn">Convert file</button>
+    </div>
+
+
 </body>
+
 </html>
